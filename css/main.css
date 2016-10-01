@@ -4,5 +4,11 @@ html {
 
 .dropdown-content {
   background-color: #e0e0eb;
-  
+
+}
+
+#Projects li {
+  margin-bottom: 10px;
+  margin-left: 4em;
+  list-style-type: disc;
 }
