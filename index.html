@@ -2,11 +2,11 @@
 <html>
   <head>
     <!-- CSS-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono:700i" rel="stylesheet">
 
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -14,158 +14,37 @@
 
   </head>
 
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper blue-grey darken-3">
-        <ul id="nav-desktop" class="right hide-on-med-and-down">
-          <li><a href="assets/JesseAkesResume.pdf"> Resume </a></li>
-          <!--<li><a href="mailto:jakes@live.unc.edu"> Contact </a></li>-->
-          <li><a href="https://github.com/jakes44" target="_blank"> Github </a></li>
-          <li><a href="https://twitter.com/GeniusJesse" target="_blank"> Twitter </a></li>
-        </ul>
-        <ul id="nav-mobile" class="side-nav hide-on-large-only">
-          <li><a href="assets/JesseAkesResume.pdf"> Resume </a></li>
-          <!--<li><a href="mailto:jakes@live.unc.edu"> Contact </a></li>-->
-          <li><a href="https://github.com/jakes44" target="_blank"> Github </a></li>
-          <li><a href="https://twitter.com/GeniusJesse" target="_blank"> Twitter </a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </div>
-    </nav>
-  </div>
-
   <body>
-    <div class="container">
 
-    <div id="intro" class="row">
-      <div class="col s12 m8 offset-m2 l6 offset-l3">
-        <div class="card-panel blue-grey darken-3 z-depth-3">
-          <div class="row valign-wrapper">
-            <div class="col s3">
-              <img src="images/jesse.jpg" alt="" class="circle responsive-img">
+      <div class="main">
+          <div class="page" id="about">
+            <div class="block">
+              <div id="header">
+                  <h1 class="left">Jesse Akes</h1>
+                  <h2 class="right">Email: jesse@jesseakes.com</h2>
+                  <div style="clear: both;"></div>
+              </div>
+
+              Hello!
+              <br><br>
+              I'm passionate about technology, music, and good stories (you'd be suprised at the overlap between them all).
+              If I'm not banging my head against the wall working on some new project, you'll usually find me at a concert or doing the crossword.
+              <br><br>
+              Right now I'm finishing up my senior year at the University of North Carolina - Chapel Hill.
+              I'll be leaving here May 2019 with a BS in Computer Science and a minor in mathematics. 
+              <br><br>
+              If you're intersted in what I'm working on or what I've done in the past, be sure to check out my resume and other links below.
+
+              <div id="links">
+                <a href="https://jesseakes.com/JesseAkesResume.pdf"><button class="buttn"><i class="fas fa-3x fa-file"></i></button></a>
+                <a href="https://github.com/jakes44"><button class="buttn"><i class="fab fa-3x fa-github-alt"></i></button></a>
+                <a href="https://www.linkedin.com/in/jesse-akes-163a05126/"><button class="buttn"><i class="fab fa-3x fa-linkedin-in"></i></button></a>
+                <a href="https://twitter.com/GeniusJesse"><button class="buttn"><i class="fab fa-3x fa-twitter"></i></button></a>
+              </div>
+              
             </div>
-            <div class="col s9">
-              <h1 class="white-text"> Jesse Akes </h1>
-              <span class="white-text">
-                Computer science student at UNC. Enjoy reading, news, and all things android.
-              </span>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-
-    <div id="about">
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-3 z-depth-3">
-            <div class="card-content white-text">
-              <span class="card-title">About</span>
-              <p> Jesse Akes is currently a junior computer science student at the University of North Carolina at Chapel Hill. Pursuing a bachelor's degree, Jesse expects to graduate
-              in May of 2019. Jesse has a love for all things technical, and his particular interests lie in systems integration and linux. When not hunched over his laptop, you can find Jesse
-              enjoying a good sci-fi movie or novel, catching up on the news, or playing board games with his friends.</p>
-              <ul>
-                <li><b> Contact: </b> jesse (at) jesseakes.com or jakes (at) cs.unc.edu  </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="skills">
-      <div class="row">
-        <div class="col s6">
-          <div class="card blue-grey darken-3 z-depth-3">
-            <div class="card-content white-text">
-              <span class="card-title">Skills</span>
-              <ul>
-                <li> Java </li>
-                <li> Python </li>
-                <li> C </li>
-                <li> MySQL </li>
-                <li> Linux </li>
-                <li> Git </li>
-                <li> Docker </li>
-                <li> Ansible </li>
-                <li> Elastic Stack </li>
-                <li> HTML & CSS </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col s6">
-          <div class="card blue-grey darken-3 z-depth-3">
-            <div class="card-content white-text">
-              <span class="card-title">Relevant Coursework</span>
-              <ul>
-                <li> Linear Algebra </li>
-                <li> Differential Equations </li>
-                <li> Probability </li>
-                <li> Combinatorics </li>
-                <div class="section" id="courses">
-                <li> Data Structures </li>
-                <li> Computer Organization and Design </li>
-                <li> Algorithms and Analysis </li>
-                <li> Internet Services and Protocols </li>
-                <li> Operating Systems </li>
-                <li> Files and Databases </li>
-                <li> Distributed Systems </li>
-                <li> Smart and Connected Systems </li>
-                <li> 2D Graphics </li>
-                </div>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="Projects">
-      <div class="row">
-        <div class="col s12">
-          <div class="card blue-grey darken-3 z-depth-3">
-            <div class="card-content white-text">
-              <span class="card-title">Projects</span>
-              <h5> RESPC Solar Energy Dashboard </h5>
-              <p>
-                <ul>
-                  <li> Wrote a web crawler to scrape solar array production data from a public facing portal due to lack of direct access to data </li>
-                  <li> Implemented a web app with Flask to display and dynamically update the collected data for the UNC Renewable Energy Special Projects Committee in the Graham Student Union </li>
-                </ul>
-              </p>
-
-              <h5> Sierpinksi Triangle Fractal Generator </h5>
-              <p>
-                <ul>
-                  <li> Created an animation using python’s matplotlib module that simulates the “chaos game” </li>
-                  <li> Generates 50,000+ points to create Sierpinski triangles, a type of iterated-function system fractal </li>
-                  <li> <a href="https://github.com/jakes44/sierpinski_triangle" class="white-text"><u> See here </u> </a> </li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    </div>
-    <!--Scripts-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script>   $(".button-collapse").sideNav(); </script>
-    <!-- Google analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-71983503-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
 
   </body>
 
